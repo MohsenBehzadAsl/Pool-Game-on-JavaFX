@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="775.0" prefWidth="1430.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.View.Main">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgba(240,250,4,0.84);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="myImage" fitHeight="785.0" fitWidth="1430.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../png/bg3.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="627.0" layoutY="445.0" onMouseClicked="#startNewGame" style="-fx-background-color: #1d8c2a;" text="New Game" wrapText="true">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Button layoutX="627.0" layoutY="518.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="57.0" prefWidth="167.0" style="-fx-background-color: rgba(154,12,12,0.73);" text="Exit">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
